@@ -1,0 +1,202 @@
+body, div, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, p, table, hr, main, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font:0.24rem  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, b, strong {
+    font-weight: 500;
+}
+
+i, em {
+    font-style: normal;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+img {
+    vertical-align: top;
+    border: none;
+}
+img, input, select, textarea {
+    vertical-align: middle;
+    outline: none;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+.clear {
+    zoom: 1;
+}
+.clear:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+/*以上为重置样式*/
+body{
+
+    background: #fff;
+}
+.wrap{
+    padding: 10px;
+
+}
+/*问题页*/
+.wrap .main{
+    margin-top: 0.3rem;
+    padding: 0.3rem;
+    min-height: 4rem;
+    background: #fff;
+    border: 1px solid #ececec;
+
+}
+.con_title{
+    padding: 0.4rem;
+}
+.con_title>.left{
+    font-size: 0.34rem;
+    color: #333;
+    position: relative;
+    top:0.15rem;
+    color: #ff812c;
+}
+.con_title>.right{
+    float: right;
+    color: #ff812c;
+    border: 1px solid #ff812c;
+    font-size: 0.20rem;
+    border-radius: 0.1rem;
+    padding: 0.1rem 0.1rem
+}
+.que_top{
+    margin-top: 0.8rem;
+    font-size: 0.24rem;
+    color: #797979;
+}
+.que_top .explain{
+    color: red;
+}
+/*.que_top .circle{
+    display: inline-block;
+    margin-right: 0.24rem;
+    width: 0.12rem;
+    height: 0.12rem;
+    border-radius: 50%;
+    background: #78aa00;
+
+}*/
+.que_top .list li{
+    margin-top: 0.16rem;
+}
+ .que_bottom{
+    margin-top: 0.2rem
+}
+.que_bottom .question{
+    position: relative;
+    font-size: 0.3rem;
+    color: #333;
+    margin-bottom: 0.4rem
+}
+.que_bottom .input_wrap{
+    position: relative;
+}
+.que_bottom .wrap_i{
+    display: none;
+    padding:0.2rem 0.3rem 0.3rem;
+    position: absolute;
+    background: #fff;
+    z-index: 2;
+    border-radius: 0.1rem;
+    font-size: 0.26rem;
+    line-height: 0.36rem;
+}
+.que_bottom .wrap_i .close{
+    display: block;
+    width: 0.42rem;
+    height: 0.42rem;
+    float: right;
+    color: #ff812c;
+    background: url("../image/close.png") no-repeat ;
+    background-size: 0.42rem 0.42rem;
+}
+.que_bottom img{
+    padding-right: 0.15rem;
+    height: 0.28rem;
+}
+.que_bottom input{
+    display: none;
+}
+.que_bottom .label{
+    position: relative;
+    margin-bottom: 0.1rem;
+    font-size: 0.28rem;
+    padding-left: 0.52rem;
+    line-height: 0.6rem;
+    display: block;
+    color: #666;
+
+    background-size: 0.24rem 0.24rem;
+}
+/*.que_bottom label img{
+    position: absolute;
+    top:0.15rem;
+    left: 0.52rem;
+}*/
+
+.que_bottom input[type=radio]+.label{
+    background: url("../image/form_radio.png") no-repeat 0 0.16rem;
+}
+.que_bottom input[type=radio]+.label.on{
+    background: url("../image/form_radio_on.png") no-repeat 0 0.16rem;
+    color: #333;
+}
+.que_bottom input[type=checkbox]+.label{
+    background: url("../image/form_checkbox.png") no-repeat 0 0.16rem;
+}
+.que_bottom input[type=checkbox]+.label.on{
+    color: #333;
+    background: url("../image/form_checkbox_on.png") no-repeat 0 0.16rem;
+}
+
+.btn{
+    margin: 0.3rem;
+    font-size: 0.26rem;
+
+}
+.btn span{
+    border: 1px solid #fb8a3e;
+    border-radius: 5px;
+    padding: 0.1rem 0.5rem;
+    color: #fff;
+
+}
+.btn .left{
+    float: left;
+}
+.btn .right{
+    float: right;
+}
+.advertising img{
+    margin-top:0.8rem;
+    width: 100%
+}
+/*小i相关*/
+#mask_i{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.4);
+    z-index: 1;
+}
