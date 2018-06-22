@@ -494,13 +494,13 @@ input::-webkit-input-placeholder{
     margin-top: 0.22rem;
     padding: 0 0.25rem;
     color: #919191;
-    font-size: 0.12rem;
-    line-height: 0.18rem;
+    font-size: 0.14rem;
+    line-height: 0.2rem;
 }
 .property{
     margin: 0.4rem 0 0.2rem 0;
     color: #919191;
-    font-size: 0.12rem;
+    font-size: 0.14rem;
     text-align: center;
 }
 /*问诊页*/
