@@ -66,10 +66,13 @@ body{
 }
 .con_title>.left{
     font-size: 0.34rem;
-    color: #333;
+    color: #fff;
     position: relative;
     top:0.15rem;
-    color: #ff812c;
+    border-radius: 0.1rem;
+    box-shadow: 1px 2px 5px rgba(0,0,0,.2);
+    background: #ff812c;
+    padding: 0.1rem;
 }
 .con_title>.right{
     float: right;
