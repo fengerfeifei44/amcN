@@ -57,7 +57,7 @@ img, input, select, textarea {
 }
 .title>h1{
     margin-top: 0.46rem;
-    color: #333;
+    color: #000;
     font-weight: 100;
     font-size: 0.62rem;
 }
