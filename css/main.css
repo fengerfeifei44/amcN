@@ -3,7 +3,7 @@ body, div, h1, h2, h3, h4, h5, h6, ul, ol, li,  p, table, hr, main, form {
     padding: 0;
 }
 h1, h2, h3, h4, h5, h6{
-    font-family:"微软雅黑"
+    font-family: "Microsoft YaHei", sans-serif;
 }
 body {
     font:0.24rem  'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -15,7 +15,7 @@ ul, ol {
 }
 
 h1, h2, h3, h4, h5, h6, b, strong {
-    font-weight: 500;
+    font-weight: 300;
 }
 
 i, em {
