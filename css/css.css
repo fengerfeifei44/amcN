@@ -159,6 +159,7 @@ body{
     height: 3rem;
     border: 1px solid #ccc;
     padding: 0.2rem;
+    -webkit-appearance: none;
 }
 .que_bottom .label{
     position: relative;
