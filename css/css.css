@@ -244,6 +244,7 @@ body{
 }
 .que_bottom input[type=date]{
     width: 50%;
+    height: 0.4rem;
     margin-bottom: 0.2rem;
     padding: 0.1rem;
     border: 1px solid #ccc;
@@ -257,7 +258,7 @@ body{
     border-radius: 0.3rem;
     text-align: center;
     border: 1px solid #fb8a3e;
-    line-height: 0.6rem;
+    line-height: 0.7rem;
     color: #fb8a3e;
     font-size: 0.32rem;
 
