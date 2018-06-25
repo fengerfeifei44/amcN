@@ -49,7 +49,7 @@ body{
     background: #fff;
 }
 .wrap{
-    padding: 10px;
+    padding: 0.2rem;
 
 }
 /*问题页*/
@@ -178,18 +178,18 @@ body{
 }*/
 
 .que_bottom input[type=radio]+.label{
-    background: url("../image/form_radio.png") no-repeat 0 0.16rem;
+    background: url("../image/form_radio.png") no-repeat 0 0.14rem;
 }
 .que_bottom input[type=radio]+.label.on{
-    background: url("../image/form_radio_on.png") no-repeat 0 0.16rem;
+    background: url("../image/form_radio_on.png") no-repeat 0 0.14rem;
     color: #333;
 }
 .que_bottom input[type=checkbox]+.label{
-    background: url("../image/form_checkbox.png") no-repeat 0 0.16rem;
+    background: url("../image/form_checkbox.png") no-repeat 0 0.14rem;
 }
 .que_bottom input[type=checkbox]+.label.on{
     color: #333;
-    background: url("../image/form_checkbox_on.png") no-repeat 0 0.16rem;
+    background: url("../image/form_checkbox_on.png") no-repeat 0 0.14rem;
 }
 
 .btn{
@@ -265,4 +265,79 @@ body{
     font-size: 0.32rem;
 
 }
+/*症状页*/
+.search{
+    padding-bottom: 0.8rem;
+    /*border-bottom: 1px solid rgba(57,103,193,.3);*/
+}
+.search .sea_one{
+    font-size: 0.3rem ;
+    line-height: 0.66rem;
+    color: #333;
+    margin-bottom: 0.2rem;
+}
+.search input{
+    outline: none;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    padding: 0 8px;
+    box-sizing: border-box;
+    width: 80%;
+    line-height: 0.6rem;
+    float: left;
+    font-size: 0.22rem;
+}
+.search .sea_inp span{
+    float: right;
+    border: 1px solid #fb8a3e;
+    border-radius: 5px;
+    width: 10%;
+    color: #fb8a3e;
+    line-height: 0.6rem;
+    padding: 0 0.2rem;
+}
+#search_page .content .select{
+    font-size: 0.3rem;
+    border-bottom: 1px solid #dcdcdc;
+    padding: 0.1rem 0;
+}
+#search_page .content .select>span{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid #dcdcdc;
+    padding: 0.1rem;
+}
+#search_page .content .select .on{
+    padding: 0.2rem 0.2rem 0.1rem 0.2rem;
+    color: #fb8a3e;
+    font-weight: 100;
+    border: 1px solid #fb8a3e;
+    border-bottom:1px solid #fff;
+}
+#search_page .content .sym{
+    padding-top: 0.3rem;
+}
+#search_page .content .sym.sym_all{
+    display: none;
+}
+#search_page .content .sym a{
+    float: left;
+    display: block;
+    width: 50%;
+    color: #797979;
+    padding: 0.15rem 0;
+    font-size: 0.28rem;
+}
+#search_page .copyright{
+    position: fixed;
+    left: 0;
+    bottom: 1rem;
+    width: 100%;
+    text-align: center;
+}
+#search_page .searchWrap{
+    margin: 0.4rem;
+}
+
+
 

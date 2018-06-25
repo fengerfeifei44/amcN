@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>惠每智能问诊系统</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+<section class="wrap"  id="search_page">
+    <div class="con_title">
+        <a class="left">重新开始</a>
+
+
+    </div>
+
+    <div class="searchWrap">
+        <div class="search">
+            <p class="sea_one">选择一个症状</p>
+            <div class="sea_inp clear">
+                <input type="text" placeholder="例如，输入打喷嚏，头痛，皮疹">
+                <a href="information.html"><span>搜索</span></a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="select">
+                <span class="on">常见症状</span>
+                <span>所有症状</span>
+            </div>
+            <div class="sym_common sym clear">
+                <a href="">腹痛</a>
+                <a href="">打喷嚏</a>
+                <a href="">呼吸问题</a>
+                <a href="">感冒症状</a>
+                <a href="">咳嗽</a>
+                <a href="">腰背痛</a>
+                <a href="">腹痛</a>
+                <a href="">尿频和夜尿增多</a>
+                <a href="">耳部出血</a>
+                <a href="">耳内异物</a>
+                <a href="">腹痛</a>
+                <a href="">尿频和夜尿增多</a>
+            </div>
+            <div class="sym_all sym clear">
+                <a href="">肛门或直肠问题</a>
+                <a href="">打喷嚏</a>
+                <a href="">呼吸问题</a>
+                <a href="">感冒症状</a>
+                <a href="">咳嗽</a>
+                <a href="">腰背痛</a>
+                <a href="">腹痛</a>
+                <a href="">尿频和夜尿增多</a>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+<script src="js/jquery-1.12.4.js"></script>
+<script src="js/public.js"></script>
+<script>
+    $(".select span").click(function (e) {
+        if($(this).html()=="常见症状"){
+            $(this).addClass("on").siblings().removeClass("on");
+            $(".sym_all").hide();
+            $(".sym_common").show();
+        }else {
+            $(this).addClass("on").siblings().removeClass("on");
+            $(".sym_common").hide();
+            $(".sym_all").show();
+        }
+
+    })
+</script>
+</body>
+</html>
