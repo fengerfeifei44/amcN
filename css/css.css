@@ -249,6 +249,7 @@ body{
     border-radius:0.1rem ;
 }
 .sureBtn{
+    width: 50%;
     display: block;
     margin: 0.5rem 1.2rem;
     border-radius: 0.3rem;
@@ -257,5 +258,6 @@ body{
     line-height: 0.6rem;
     color: #fb8a3e;
     font-size: 0.32rem;
+    -webkit-appearance: none;
 }
 
