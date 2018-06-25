@@ -644,9 +644,9 @@ input::-webkit-input-placeholder{
 }
 /*广告位*/
 .version{
-    padding: 0.2rem;
+   /* padding: 0.2rem;*/
     margin: 0 0.5rem;
-    background: #f4f4f4;
+   /* background: #f4f4f4;*/
 }
 .version img{
     width: 60%;
@@ -654,6 +654,7 @@ input::-webkit-input-placeholder{
 .version .ver_group{
     margin-bottom: 0.2rem;
     background: #fff;
+    border: 1px solid #ececec;
 }
 .version .ver_group:nth-last-child(1){
     margin-bottom: inherit;
