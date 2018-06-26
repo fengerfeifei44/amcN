@@ -167,10 +167,10 @@ body{
     font-size: 0.28rem;
     padding-left: 0.52rem;
     line-height: 0.6rem;
-    display: block;
+    display: inline-block;
     color: #666;
-
     background-size: 0.24rem 0.24rem;
+    margin-right: 0.2rem;
 }
 /*.que_bottom label img{
     position: absolute;
