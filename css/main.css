@@ -627,7 +627,7 @@ input::-webkit-input-placeholder{
     width: 60%;
 }
 .version .ver_group{
-    margin-bottom: 0.2rem;
+    /*margin-bottom: 0.2rem;*/
     background: #fff;
     border: 1px solid #ececec;
 }

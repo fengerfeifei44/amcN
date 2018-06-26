@@ -358,20 +358,24 @@ body{
     display: none;
     border-bottom: 1px solid #dcdcdc;
     padding: 0.3rem 0.1rem 0.1rem 0;
+    color: #666;
+    font-size: 0.28rem;
+}
+.list li i{
+    font-size: 0.24rem;
     color: #afafaf;
-    font-size: 0.26rem;
 }
 
 .list li.on{
     display: block;
 }
-.list li i{
+/*.list li i{
     float: right;
     width: 0.24rem;
     height: 0.24rem;
     background: url("../image/arrow1.png") no-repeat;
     background-size: 0.24rem;
-}
+}*/
 
 
 
