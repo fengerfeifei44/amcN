@@ -233,7 +233,7 @@ body{
 }
 .selec_self a{
     display: block;
-    margin: 0.3rem 0rem 0 0;
+    margin: 0.6rem 0rem 0 0;
     border-radius: 0.3rem;
     padding: 0.18rem;
    text-align: center;
@@ -241,7 +241,7 @@ body{
 }
 /*性别页*/
 .question.sex{
-    margin-top: 0.3rem;
+    margin-top: 0.5rem;
 }
 .que_bottom input[type=date]{
     width: 40%;
@@ -268,7 +268,7 @@ body{
 }
 /*症状页*/
 .search{
-    padding-bottom: 0.8rem;
+    margin-bottom: 0.8rem;
     /*border-bottom: 1px solid rgba(57,103,193,.3);*/
 }
 .search .sea_one{
@@ -288,7 +288,7 @@ body{
     float: left;
     font-size: 0.22rem;
 }
-.search .sea_inp span{
+.search .sea_inp a{
     float: right;
     border: 1px solid #fb8a3e;
     border-radius: 5px;
@@ -296,6 +296,7 @@ body{
     color: #fb8a3e;
     line-height: 0.6rem;
     padding: 0 0.2rem;
+    text-align: center;
 }
 #search_page .content .select{
     font-size: 0.3rem;
@@ -338,6 +339,33 @@ body{
 }
 #search_page .searchWrap{
     margin: 0.4rem;
+}
+/*症状搜索*/
+.list{
+   /* display: none;*/
+    margin-top: 0.5rem;
+}
+.list.on{
+    margin-top: -0.5rem;
+    display: block;
+}
+.list li{
+    display: none;
+    border-bottom: 1px solid #dcdcdc;
+    padding: 0.3rem 0.1rem 0.1rem 0;
+    color: #afafaf;
+    font-size: 0.26rem;
+}
+
+.list li.on{
+    display: block;
+}
+.list li i{
+    float: right;
+    width: 0.24rem;
+    height: 0.24rem;
+    background: url("../image/arrow1.png") no-repeat;
+    background-size: 0.24rem;
 }
 
 
