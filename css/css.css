@@ -319,7 +319,7 @@ body{
     color: #fb8a3e;
     font-weight: 100;
     border: 1px solid #fb8a3e;
-    border-bottom:1px solid #fff;
+    /*border-bottom:1px solid #fff;*/
 }
 #search_page .content .sym{
     padding-top: 0.3rem;
