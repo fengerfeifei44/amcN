@@ -287,6 +287,7 @@ body{
     line-height: 0.6rem;
     float: left;
     font-size: 0.22rem;
+    -webkit-appearance: none;
 }
 .search .sea_inp a{
     float: right;
@@ -310,6 +311,7 @@ body{
     padding: 0.1rem;
 }
 #search_page .content .select .on{
+    font-family: "Microsoft YaHei";
     padding: 0.2rem 0.2rem 0.1rem 0.2rem;
     color: #fb8a3e;
     font-weight: 100;
